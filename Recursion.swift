@@ -28,7 +28,7 @@ func numberPattern(funcInt: Int) {
 print("This program displays a pattern using a user-inputted integer."
     + " The integer has to be between 1 and 15.")
 
-// Get the user's number of discs.
+// Get the user's integer.
 print("Enter a positive integer:", terminator: " ")
 let userString: String = readLine() ?? ""
 let userInt: Int = Int(userString) ?? 0
